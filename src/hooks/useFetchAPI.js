@@ -27,6 +27,7 @@ const useFetchAPI = (url, options = {}) => {
         setLoading(false);
       }
     };
+    
 
     if (url) {
       fetchData();
